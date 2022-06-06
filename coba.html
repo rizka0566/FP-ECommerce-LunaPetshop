@@ -1,0 +1,479 @@
+   <!-- toko -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KENYANGIN : Website Pesan Antar Makanan Online</title>
+    <link rel="icon" type="image/x-icon" href="https://kenyangin.osorateam.com/img/fav-kenyangin.png">
+    <link rel="stylesheet" href="https://kenyangin.osorateam.com/css/app.css">
+    <link rel="stylesheet" href="https://kenyangin.osorateam.com/css/style.css">
+    <link rel="stylesheet" href="https://kenyangin.osorateam.com/css/font.css">
+    <script src="https://kenyangin.osorateam.com/js/app.js"></script>
+</head>
+<body>
+    <!-- navbar -->
+    <section>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container">
+            <a class="navbar-brand text-white righteous" href=" https://kenyangin.osorateam.com ">
+                <img src="https://kenyangin.osorateam.com/img/logo-nav.png" alt="">
+                KENYANG.IN
+            </a>
+            <span>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active text-white p400" aria-current="page" href=" https://kenyangin.osorateam.com ">Beranda</a>
+                    </li>
+                    <li>
+                        
+                                                                                                        <li class="nav-item">
+                                <a class="nav-link text-white" href="https://kenyangin.osorateam.com/cart">Keranjang</a>
+                            </li>
+                                                                                <li class="nav-item">
+                                <a class="nav-link text-white" href="#">Hai y 🌝</a>
+                            </li>
+
+                            <a class="btn btn-warning text-white" href="https://kenyangin.osorateam.com/logout"
+                                onclick="event.preventDefault();
+                                                document.getElementById('logout-form').submit();">
+                                Keluar
+                            </a>
+
+                            <form id="logout-form" action="https://kenyangin.osorateam.com/logout" method="POST" class="d-none">
+                                <input type="hidden" name="_token" value="YQH9CPbLkiwsAbBs2hSn0BTRWp3Hf8uyfa7wzT0O">                            </form>    
+                                            </li>
+                    </ul>
+            </span>
+        </div>
+        </nav>
+    </div>
+    </section>
+
+
+            <!-- info makanan -->
+        <section class="toko">
+            <div class="cover">
+                <img class="w-100" src="https://kenyangin.osorateam.com/storage/img/restaurant/MWtyoP5eNKaboEDSKM48Sd37KeviFEDvzQf7gtw9.jpg" alt="">
+            </div>
+            <div class="container">
+                <div class="row mt-4">
+                    <div class="col-md-7">
+                        <h1 class="p-700">Chicken Dinner</h1>
+                        <p>The reasoning behind CHICKEN DINNER is that food is designed to give you energy</p>
+                        <p>
+                            <img src="https://kenyangin.osorateam.com/img/ic-star.png" alt="">
+                            <img src="https://kenyangin.osorateam.com/img/ic-star.png" alt="">
+                            <img src="https://kenyangin.osorateam.com/img/ic-star.png" alt="">
+                            <img src="https://kenyangin.osorateam.com/img/ic-star.png" alt="">
+                            <img src="https://kenyangin.osorateam.com/img/ic-star.png" alt="">
+                            5 (100+)
+                        </p>
+                    </div>
+    
+                    <div class="col-md-5">
+                        <div class="kupon mb-2">
+                            <h3 class="righteous">kode : KENYANGIN</h3>
+                        </div>
+                        <p>masukkan kode KENYANGIN untuk mendapatkan diskon gratis ongkir , syarat dan ketentuan berlaku</p>
+                    </div>
+                </div>
+
+                <hr class="mb-4">
+                                            <div class="alert alert-warning alert-dismissible fade show" role="alert">
+                            Menu berhasil ditambahkan ke keranjang 😗
+                            <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+                        </div>
+                                    
+                                                
+                <div class="row">
+                                            
+                        <div class="col-md-4 mb-3">
+                            <div class="block-menu h-100">
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <img class="ic-menu" src="https://kenyangin.osorateam.com/storage/img/menu/WVIVx8g4hhflEV2ICObesCGkMCtvlngrNIm1EPQs.jpg" alt="">
+                                    </div>
+                                    <div class="col-md-6 align-self-center">
+                                        <h4> Chicken Steak </h4>
+                                        <h4 class="biru">RP 25000</h4>
+                                    </div>
+                                </div>
+                                <p class="mt-2">chicken steak with some vegetables</p>
+
+                                                                                                        <form action="https://kenyangin.osorateam.com/cart/add-to-cart/4/11" method="post">
+                                        <input type="hidden" name="_token" value="YQH9CPbLkiwsAbBs2hSn0BTRWp3Hf8uyfa7wzT0O">                                        <div class="row">
+                                                <div class="col-md-8">
+                                                    <div class="d-flex justify-content-end">
+                                                        <div class="no-btn" onclick="decrement(0)">
+                                                            <img src="https://kenyangin.osorateam.com/img/ic-minus.png" alt="">
+                                                        </div>
+
+                                                        <input class="text-center" id="quantity0" name="quantity" type="number" min=1 value="1">
+                                                        
+                                                        <div class="no-btn" onclick="increment(0)">
+                                                            <img src="https://kenyangin.osorateam.com/img/ic-plus.png" alt="">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-4">
+                                                    <button type="submit" class="btn">
+                                                        <img src="https://kenyangin.osorateam.com/img/ic-cart.png" alt="">
+                                                    </button>
+                                                </div>
+                                            </div>
+                                        </form>
+                                                                                                </div>
+                        </div>
+                                            
+                        <div class="col-md-4 mb-3">
+                            <div class="block-menu h-100">
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <img class="ic-menu" src="https://kenyangin.osorateam.com/storage/img/menu/XX6hjgJrdt6RrGPQdYoyEwqrtaDHhbktW9snV6YU.jpg" alt="">
+                                    </div>
+                                    <div class="col-md-6 align-self-center">
+                                        <h4> Chicken with Thai Sauce </h4>
+                                        <h4 class="biru">RP 35000</h4>
+                                    </div>
+                                </div>
+                                <p class="mt-2">Thai chicken combined with a special sour spicy sauce</p>
+
+                                                                                                        <form action="https://kenyangin.osorateam.com/cart/add-to-cart/4/12" method="post">
+                                        <input type="hidden" name="_token" value="YQH9CPbLkiwsAbBs2hSn0BTRWp3Hf8uyfa7wzT0O">                                        <div class="row">
+                                                <div class="col-md-8">
+                                                    <div class="d-flex justify-content-end">
+                                                        <div class="no-btn" onclick="decrement(1)">
+                                                            <img src="https://kenyangin.osorateam.com/img/ic-minus.png" alt="">
+                                                        </div>
+
+                                                        <input class="text-center" id="quantity1" name="quantity" type="number" min=1 value="1">
+                                                        
+                                                        <div class="no-btn" onclick="increment(1)">
+                                                            <img src="https://kenyangin.osorateam.com/img/ic-plus.png" alt="">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-4">
+                                                    <button type="submit" class="btn">
+                                                        <img src="https://kenyangin.osorateam.com/img/ic-cart.png" alt="">
+                                                    </button>
+                                                </div>
+                                            </div>
+                                        </form>
+                                                                                                </div>
+                        </div>
+                                            
+                        <div class="col-md-4 mb-3">
+                            <div class="block-menu h-100">
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <img class="ic-menu" src="https://kenyangin.osorateam.com/storage/img/menu/GcqxyWBsw6FqV9c3shJmUSgDpREHFj4zv3168e9n.jpg" alt="">
+                                    </div>
+                                    <div class="col-md-6 align-self-center">
+                                        <h4> Chicken with Blackpaper </h4>
+                                        <h4 class="biru">RP 28000</h4>
+                                    </div>
+                                </div>
+                                <p class="mt-2">grilled chicken with solid black pepper</p>
+
+                                                                                                        <form action="https://kenyangin.osorateam.com/cart/add-to-cart/4/13" method="post">
+                                        <input type="hidden" name="_token" value="YQH9CPbLkiwsAbBs2hSn0BTRWp3Hf8uyfa7wzT0O">                                        <div class="row">
+                                                <div class="col-md-8">
+                                                    <div class="d-flex justify-content-end">
+                                                        <div class="no-btn" onclick="decrement(2)">
+                                                            <img src="https://kenyangin.osorateam.com/img/ic-minus.png" alt="">
+                                                        </div>
+
+                                                        <input class="text-center" id="quantity2" name="quantity" type="number" min=1 value="1">
+                                                        
+                                                        <div class="no-btn" onclick="increment(2)">
+                                                            <img src="https://kenyangin.osorateam.com/img/ic-plus.png" alt="">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-4">
+                                                    <button type="submit" class="btn">
+                                                        <img src="https://kenyangin.osorateam.com/img/ic-cart.png" alt="">
+                                                    </button>
+                                                </div>
+                                            </div>
+                                        </form>
+                                                                                                </div>
+                        </div>
+                                            
+                        <div class="col-md-4 mb-3">
+                            <div class="block-menu h-100">
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <img class="ic-menu" src="https://kenyangin.osorateam.com/storage/img/menu/auxJKWtVma1RgkSOS8kD0lQCchyk8RZfjga8yR98.jpg" alt="">
+                                    </div>
+                                    <div class="col-md-6 align-self-center">
+                                        <h4> Chicken Barbecue </h4>
+                                        <h4 class="biru">RP 99000</h4>
+                                    </div>
+                                </div>
+                                <p class="mt-2">complete barbecue chicken dish</p>
+
+                                                                                                        <form action="https://kenyangin.osorateam.com/cart/add-to-cart/4/14" method="post">
+                                        <input type="hidden" name="_token" value="YQH9CPbLkiwsAbBs2hSn0BTRWp3Hf8uyfa7wzT0O">                                        <div class="row">
+                                                <div class="col-md-8">
+                                                    <div class="d-flex justify-content-end">
+                                                        <div class="no-btn" onclick="decrement(3)">
+                                                            <img src="https://kenyangin.osorateam.com/img/ic-minus.png" alt="">
+                                                        </div>
+
+                                                        <input class="text-center" id="quantity3" name="quantity" type="number" min=1 value="1">
+                                                        
+                                                        <div class="no-btn" onclick="increment(3)">
+                                                            <img src="https://kenyangin.osorateam.com/img/ic-plus.png" alt="">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-4">
+                                                    <button type="submit" class="btn">
+                                                        <img src="https://kenyangin.osorateam.com/img/ic-cart.png" alt="">
+                                                    </button>
+                                                </div>
+                                            </div>
+                                        </form>
+                                                                                                </div>
+                        </div>
+                                    </div>
+            </div>
+        </section>
+
+        <script>
+            function increment(urutan) {
+                document.getElementById(`quantity${urutan}`).stepUp();
+            }
+            function decrement(urutan) {
+                document.getElementById(`quantity${urutan}`).stepDown();
+            }
+        </script>
+    
+
+    <!-- footer -->
+    <section>
+        <footer>developed by group 6</footer>
+    </section>
+
+</body>
+</html>
+
+   <!-- login -->
+   <!DOCTYPE html>
+   <html lang="en">
+   <head>
+       <meta charset="UTF-8">
+       <meta http-equiv="X-UA-Compatible" content="IE=edge">
+       <meta name="viewport" content="width=device-width, initial-scale=1.0">
+       <title>KENYANGIN : Website Pesan Antar Makanan Online</title>
+       <link rel="icon" type="image/x-icon" href="https://kenyangin.osorateam.com/img/fav-kenyangin.png">
+       <link rel="stylesheet" href="https://kenyangin.osorateam.com/css/app.css">
+       <link rel="stylesheet" href="https://kenyangin.osorateam.com/css/style.css">
+       <link rel="stylesheet" href="https://kenyangin.osorateam.com/css/font.css">
+       <script src="https://kenyangin.osorateam.com/js/app.js"></script>
+   </head>
+   <body>
+       <!-- navbar -->
+       <section>
+       <nav class="navbar navbar-expand-lg navbar-light bg-light">
+           <div class="container">
+               <a class="navbar-brand text-white righteous" href=" https://kenyangin.osorateam.com ">
+                   <img src="https://kenyangin.osorateam.com/img/logo-nav.png" alt="">
+                   KENYANG.IN
+               </a>
+               <span>
+                   <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                       <span class="navbar-toggler-icon"></span>
+                   </button>
+                   <div class="collapse navbar-collapse" id="navbarNav">
+                       <ul class="navbar-nav">
+                       <li class="nav-item">
+                           <a class="nav-link active text-white p400" aria-current="page" href=" https://kenyangin.osorateam.com ">Beranda</a>
+                       </li>
+                       <li>
+                           
+                                                                                           <a class="btn btn-warning text-white" href="https://kenyangin.osorateam.com/login">Masuk</a>
+                               
+                                                                   <a class="btn btn-warning text-white" href="https://kenyangin.osorateam.com/register">Daftar</a>
+                                                                           </li>
+                       </ul>
+               </span>
+           </div>
+           </nav>
+       </div>
+       </section>
+   
+   
+       <section>
+       <div class="container block-center">
+           <div class="block-acc">
+               <div class="row justify-content-center">
+                   <img class="img-acc" src="img/img-acc.png" alt="">
+               </div>
+               <h1 class="righteous text-white">KENYANG.IN</h1>
+                   <form method="POST" action="https://kenyangin.osorateam.com/login">
+                   <input type="hidden" name="_token" value="Ln2vVgpRSxivKQGVfoUKglks6q2x9uJklMXKVNm4">                  <div class="input">
+                     <div class="row">
+                       <div class="col-md-1">
+                         <img src="img/name.png" alt="">
+                       </div>
+                       <div class="col-md-11">
+                         <input id="email" type="email" class="" name="email" value="" placeholder="Email" required autocomplete="email" autofocus>
+   
+                         
+                       </div>
+                     </div>
+                 </div>
+   
+                 <div class="input">
+                     <div class="row">
+                       <div class="col-md-1">
+                         <img src="img/psswd.png" alt="">
+                       </div>
+                       <div class="col-md-11">
+                         <input id="password" type="password" class="" name="password" placeholder="Password" required autocomplete="current-password">
+   
+                         
+                       </div>
+                     </div>
+                 </div>
+                 <button type="submit" class="btn btn-warning text-white mt-5">Sign In</button>
+               </form>
+           </div>
+       </div>
+   </section>
+   
+   
+       <!-- footer -->
+       <section>
+           <footer>developed by group 6</footer>
+       </section>
+   
+   </body>
+   </html>
+
+    <!-- daftar-->
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KENYANGIN : Website Pesan Antar Makanan Online</title>
+    <link rel="icon" type="image/x-icon" href="https://kenyangin.osorateam.com/img/fav-kenyangin.png">
+    <link rel="stylesheet" href="https://kenyangin.osorateam.com/css/app.css">
+    <link rel="stylesheet" href="https://kenyangin.osorateam.com/css/style.css">
+    <link rel="stylesheet" href="https://kenyangin.osorateam.com/css/font.css">
+    <script src="https://kenyangin.osorateam.com/js/app.js"></script>
+</head>
+<body>
+    <!-- navbar -->
+    <section>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container">
+            <a class="navbar-brand text-white righteous" href=" https://kenyangin.osorateam.com ">
+                <img src="https://kenyangin.osorateam.com/img/logo-nav.png" alt="">
+                KENYANG.IN
+            </a>
+            <span>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active text-white p400" aria-current="page" href=" https://kenyangin.osorateam.com ">Beranda</a>
+                    </li>
+                    <li>
+                        
+                                                                                        <a class="btn btn-warning text-white" href="https://kenyangin.osorateam.com/login">Masuk</a>
+                            
+                                                                <a class="btn btn-warning text-white" href="https://kenyangin.osorateam.com/register">Daftar</a>
+                                                                        </li>
+                    </ul>
+            </span>
+        </div>
+        </nav>
+    </div>
+    </section>
+
+
+        <!-- body -->
+    <section>
+        <div class="container block-center">
+            <div class="block-acc">
+                <div class="row justify-content-center">
+                    <img class="img-acc" src="img/img-acc.png" alt="">
+                </div>
+                <h1 class="righteous text-white">KENYANG.IN</h1>
+
+                <form method="POST" action="https://kenyangin.osorateam.com/register">
+                    <input type="hidden" name="_token" value="Ln2vVgpRSxivKQGVfoUKglks6q2x9uJklMXKVNm4">                  <div class="input">
+                      <div class="row">
+                        <div class="col-md-1">
+                          <img src="img/name.png" alt="">
+                        </div>
+                        <div class="col-md-11">
+                          <input id="name" type="text" class="" name="name" value="" placeholder="Full Name" required autocomplete="name" autofocus>
+                                                  </div>
+                      </div>
+                  </div>
+  
+                  <div class="input">
+                      <div class="row">
+                        <div class="col-md-1">
+                          <img src="img/email.png" alt="">
+                        </div>
+                        <div class="col-md-11">
+                          <input id="email" type="email" class="form-control " name="email" value="" placeholder="Email" required autocomplete="email">
+
+                                                </div>
+                      </div>
+                  </div>
+  
+                  <div class="input">
+                      <div class="row">
+                        <div class="col-md-1">
+                          <img src="img/psswd.png" alt="">
+                        </div>
+                        <div class="col-md-11">
+                            <input id="password" type="password" class="form-control " name="password" placeholder="Password" required autocomplete="new-password">
+
+                                                    </div>
+                      </div>
+                  </div>
+
+                  <div class="input">
+                      <div class="row">
+                        <div class="col-md-1">
+                          <img src="img/psswd.png" alt="">
+                        </div>
+                        <div class="col-md-11">
+                            <div class="col-md-6">
+                                <input id="password-confirm" type="password" class="form-control" name="password_confirmation" placeholder="Confirm password" required autocomplete="new-password">
+                            </div>
+                        </div>
+                      </div>
+                  </div>
+                  <button type="submit" class="btn btn-warning text-white mt-5">Sign Up</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- footer -->
+    <section>
+        <footer>developed by group 6</footer>
+    </section>
+
+</body>
+</html>
